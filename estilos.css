@@ -8,7 +8,19 @@ html, body {
     margin: 0;
     padding: 0;
     font-family: 'Courier New', Courier, monospace;
+    
     }
+body {
+    background-image: url(descarga.jpg);
+     background-color: seagreen;
+}
+.imagen.fondo{
+    background-image: url(descarga.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+}
 
 header {
         display: flex;
@@ -52,18 +64,24 @@ header {
  .fila.reversa{
      flex-direction: row-reverse;
  } 
- .fila.contraria{
-     flex-direction: row-reverse;
- }
+ 
+    
+ 
  .pie{
-     align=left;
+     
      size: 18px;
      line-height: 15px;
      vertical-align: top;
-     font=grid-template;
+    
      }
      .texto.rojo{
           color: red;
      }
-        
+    .vinculos{
+        display: flex;
+        padding: 1rem;
+        align-items: flex-start;
+        list-style: none;
+
+    }
      
