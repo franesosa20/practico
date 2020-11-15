@@ -7,4 +7,63 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
+    font-family: 'Courier New', Courier, monospace;
     }
+
+header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+            }
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 1rem; 
+}
+.menu li {
+    padding: 1rem;
+}
+
+ .fila {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ } 
+
+ .fila img {
+     width: 60%;
+     padding: 1rem;
+
+ }
+ .fila img, .fila .bloque {
+     margin: 1rem;
+ }
+ .numero {
+     font-size: 4rem;
+     font-weight: bold;
+     opacity: 0.5;
+     position: absolute;
+     margin-left: -2rem;
+     margin-top: -2rem;
+ }
+ .fila.reversa{
+     flex-direction: row-reverse;
+ } 
+ .fila.contraria{
+     flex-direction: row-reverse;
+ }
+ .pie{
+     align=left;
+     size: 18px;
+     line-height: 15px;
+     vertical-align: top;
+     font=grid-template;
+     }
+     .texto.rojo{
+          color: red;
+     }
+        
+     
